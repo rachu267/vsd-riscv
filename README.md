@@ -1,8 +1,8 @@
-VSD-RISCV
+#VSD-RISCV
 
 The program is based on the RISC-V architecture and uses open-source tools for VLSI chip design and RISC-V.
 
-Basic Details
+#Basic Details
 
 Name: Rachagond Doddashivannavar
 
