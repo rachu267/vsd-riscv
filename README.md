@@ -1,7 +1,9 @@
-vsd-riscv
+VSD-RISCV
+
 The program is based on the RISC-V architecture and uses open-source tools for VLSI chip design and RISC-V.
 
 Basic Details
+
 Name: Rachagond Doddashivannavar
 
 College: Vidyavardhaka College of Engineering
