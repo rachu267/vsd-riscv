@@ -1,8 +1,10 @@
 #VSD-RISCV
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The program is based on the RISC-V architecture and uses open-source tools for VLSI chip design and RISC-V.
 
 #Basic Details
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Name: Rachagond Doddashivannavar
 
@@ -10,8 +12,11 @@ College: Vidyavardhaka College of Engineering
 
 Email ID: rachagonddoddashivannavar@gmail.com
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-->Task 1:Review lab videos on C programming and RISC-V architecture. Perform the task of compiling C code using both the GCC compiler and the RISC-V compiler, demonstrating an understanding of the compilation process
+
+#Task 1:Review lab videos on C programming and RISC-V architecture. Perform the task of compiling C code using both the GCC compiler and the RISC-V compiler, demonstrating an understanding of the compilation process
+
 
 Task is to refer to C based and RISCV based lab videos and execute the task of compiling the C code using gcc and riscv compiler
 C and RISC-V Based Labs
