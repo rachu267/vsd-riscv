@@ -42,3 +42,54 @@ to check the output command
  ![VirtualBox_vsd2_22_03_2025_22_42_03](https://github.com/user-attachments/assets/2f964922-c205-453e-b5c4-51a0fc8a97d1)
 
 
+
+ #Task: Compile and Analyze C Program with RISC-V GCC/SPIKE under Different Optimization Flags (-O1 and -Ofast)
+
+ #Overview:
+ --------------------------------
+The SPIKE simulator is a RISC-V instruction set simulator that helps in simulating and testing RISC-V programs in a controlled environment. It is commonly used in scenarios where you want to analyze, test, and debug programs on a RISC-V architecture without having access to actual hardware. SPIKE works by emulating the behavior of RISC-V processors and can be used to simulate the execution of compiled RISC-V code, making it a useful tool for developers and researchers working with RISC-V.
+
+#Key Features of SPIKE:
+------------------------
+RISC-V ISA Emulator: SPIKE simulates a processor based on the RISC-V architecture. It supports different versions of the RISC-V ISA (Instruction Set Architecture) and can emulate the execution of RISC-V machine code.
+
+Simulation of RISC-V Programs: Once you have compiled your RISC-V program (e.g., using a cross-compiler for RISC-V like RISC-V GCC), you can run that binary in SPIKE to simulate how the program would behave on a RISC-V processor.
+
+Debugging and Tracing: SPIKE allows you to perform detailed debugging of the execution of RISC-V programs. You can trace the program’s execution, inspect register values, and monitor memory operations. This feature makes it a valuable tool for understanding how code performs at the assembly and machine code level.
+
+Performance Evaluation: By running your program under different compiler optimizations, such as -O1 and -Ofast, SPIKE can be used to compare the performance of the program under different settings. You can observe how optimizations affect execution time, memory usage, and CPU cycles.
+
+Integration with Other Tools: SPIKE can be used with other RISC-V development tools, like debuggers or performance profilers, to get a more in-depth analysis of the code.
+![program](https://github.com/user-attachments/assets/427dba95-f513-424f-bfd4-355742ed68de)
+
+#How SPIKE Simulation Works:
+-------------------------------------------------------------------------------------------------------------------------------------------
+Setup: You begin by setting up the RISC-V environment, which includes installing SPIKE, the RISC-V GCC toolchain, and any other necessary utilities.
+
+Compilation: You write a simple C program (or any program) and compile it using the RISC-V toolchain. When compiling, you can specify optimization flags like -O1 or -Ofast to see how different levels of optimization affect the compiled code.
+
+Running the Program: After compiling your program, you can run it in the SPIKE simulator. The simulation will interpret each instruction of your compiled RISC-V code and allow you to observe the behavior and performance.
+
+Object Dump Analysis: When you compile a program with different optimization flags, you can also generate object dumps (like .o files) that contain the low-level assembly instructions and memory layout of your program. These dumps can be analyzed to see how different optimizations impact the machine-level code.
+
+Performance Metrics: By running the program on SPIKE, you can also gather performance metrics, such as how long the program takes to execute under different optimization flags and how the program uses CPU cycles and memory.
+
+![-Ofast](https://github.com/user-attachments/assets/303836e4-1320-4de6-a3dd-91dee9c173f4)
+
+#Optimization Flags in SPIKE:
+---------------------------------------------------------------------------------------------------------------------
+When compiling your program, you can use optimization flags like -O1 and -Ofast to see how they affect the performance:
+
+-O1 Optimization: This level of optimization focuses on balancing performance and compilation time. It may improve performance without significantly increasing compilation time.
+
+-Ofast Optimization: This flag enables aggressive optimizations that prioritize performance over everything else, sometimes sacrificing correctness or strict compliance with the C standard. It often leads to faster code at the cost of potentially more aggressive assumptions about the hardware.
+
+![riscv commands](https://github.com/user-attachments/assets/20fba24e-2826-4b02-9850-2917570566fe)
+
+![out](https://github.com/user-attachments/assets/adb2eab8-7110-4cd3-9bc9-30261733af46)
+
+
+
+
+
+
