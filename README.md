@@ -43,7 +43,9 @@ to check the output command
 
 
 
- #Task: Compile and Analyze C Program with RISC-V GCC/SPIKE under Different Optimization Flags (-O1 and -Ofast)
+ #Task:
+ ---------------------------
+ Compile and Analyze C Program with RISC-V GCC/SPIKE under Different Optimization Flags (-O1 and -Ofast)
 
  #Overview:
  --------------------------------
